@@ -1,0 +1,16 @@
+{
+  "users": [
+    { "id": 1, "name": "홍길동", "avatar": "image-url" },
+    { "id": 2, "name": "김철수", "avatar": "image-url" }
+  ],
+  "posts": [
+    { "id": 1, "title": "json-server 시작하기", "userId": 1 },
+    { "id": 2, "title": "관계형 데이터베이스 구축하기", "userId": 1 },
+    { "id": 3, "title": "React와 함께 사용하기", "userId": 2 }
+  ],
+  "comments": [
+    { "id": 1, "body": "좋은 글이네요!", "postId": 1, "userId": 2 },
+    { "id": 2, "body": "매우 유용한 정보입니다.", "postId": 1, "userId": 1 },
+    { "id": 3, "body": "감사합니다.", "postId": 2, "userId": 2 }
+  ]
+}
